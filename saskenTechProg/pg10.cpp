@@ -10,7 +10,7 @@ class B
 	
 public:
 	B(){ cout<<"Ctor of Base"<<endl; }
-	~B(){ cout<<"Dtor of Base"<<endl; }
+	virtual ~B(){ cout<<"Dtor of Base"<<endl; }
 	
 };
 
