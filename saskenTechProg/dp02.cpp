@@ -19,6 +19,7 @@ public:
 	B(){}
 	B(int x){b = x;}
 	void displayB(){cout<<b<<endl;}
+	void disp() {cout<<"Hello B"<<endl;}
 };
 
 class C:virtual public A{
@@ -27,6 +28,7 @@ public:
 	C(){}
 	C(int x){c = x;}
 	void displayC(){cout<<c<<endl;}
+	void disp() {cout<<"Hello C"<<endl;}
 };
 
 class D:public B, public C{
@@ -43,6 +45,7 @@ int main()
 	d1.displayB();
 	d1.displayC();
 	d1.displayD();
+	d1.disp();
 	return 0;
 
 }
