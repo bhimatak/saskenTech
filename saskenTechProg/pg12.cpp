@@ -21,8 +21,8 @@ int main()
 		else{
 			if(b==6)
 				throw runtime_error("Math error: Attempted to divide by Zero\n");
-			cout<<a/0<<endl;
-			// ptr = new int[99999999999];
+			// cout<<a/0<<endl;
+			ptr = new int[99999999999];
 			// throw exception();
 
 		}
