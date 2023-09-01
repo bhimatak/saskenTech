@@ -1,0 +1,20 @@
+QUESTION#1
+Create a class Inventory that contains item code, description, rate per unit and total units in stock.
+a) Create 5 objects of inventory.
+b) Create a menu based program to handle data to store these five objects.
+c) Also add a function to edit the stock of any given item.
+d) Add a function that displays the details of the item whose code is passed as a parameter.
+e) Add an overloaded version of the function details () that print all the items with their details.
+
+QUESTION#2
+Create a class template with two generic data types to print their addition. Show the results for
+following types:
+- int and double for example: (10,0.23) would print10.23
+- char* and char*
+For example: (“Now”, “Then”) would print NowThen
+
+
+QUESTION#3
+Create a class containing a function template capable of returning the sum of all the elements in an
+array being passed as parameter. Show the results for two arrays, one integer type and the other
+double type but you can even do for strings as well.
