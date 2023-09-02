@@ -94,8 +94,9 @@ public:
 	
 
 	toy->prepareParts();
-	toy->combineParts();
+	
 	toy->assembleParts();
+	toy->combineParts();
 	toy->applyLable();
 
 	return toy;
