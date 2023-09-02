@@ -69,7 +69,7 @@ vector<Rect *>getRects(vector<Shape *>&all)
         
         //check with even static_cast
         
-        Rect *r = static_cast<Rect *>(all[i]);
+        Rect *r = dynamic_cast<Rect *>(all[i]);
         if (r != nullptr)
             v.push_back(r);
     }
@@ -79,7 +79,7 @@ vector<Rect *>getRects(vector<Shape *>&all)
 
 int main()
 {
-    vector<Shape*> all = RandShape(17);
+    vector<Shape*> all = RandShape(27);
 
     vector<Rect*> rects = getRects(all);
     
