@@ -1,0 +1,16 @@
+
+1. Forward class dec. 
+with the body of the class
+this may be used in the current senario or class
+and declared/defined later 
+
+Ex:
+
+class A; 
+
+class B{
+public:
+	void func(A a);
+};
+
+2. Templates

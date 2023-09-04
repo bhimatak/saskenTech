@@ -1,0 +1,6 @@
+Create a base class of Person
+create a employee class derived from person
+
+using the stack operations insert new employees, delete
+
+

@@ -1,0 +1,64 @@
+Q.
+
+Complete the following tasks:
+a. Design a Meal class with two fields—one that holds the name of the entrée, the other
+that holds a calorie count integer. Include a constructor that sets a Meal’s fields with
+parameters, or uses default values when no parameters are provided.
+b. Include an overloaded insertion operator function that displays a Meal’s values.
+c. Include an overloaded extraction operator that prompts a user for an entrée name and
+calorie count for a meal.
+d. Include an overloaded operator+()function that allows you to add two or more Meal
+objects. Adding two Meal objects means adding their calorie values and creating a
+summary Meal object in which you store “Daily Total” in the entrée field.
+
+
+
+	Meal obj1("Pizza",5000),obj2("Burger",1000),obj3;
+	cout<<"Input Obj 3:-\n";
+	cin>>obj3;
+	cout<<"\nDisplay Obj 1:-\n";
+	cout<<obj1;
+	cout<<"\nDisplay Obj 2:-\n";
+	cout<<obj2;
+	cout<<"\nDisplay Obj 3:-\n";
+	cout<<obj3;
+	cout<<"\nMeal Summary:-\n";
+	cout<<obj1+obj2+obj3;
+	
+	
+	o/p
+	
+	Display Obj 3:-
+	Meal Name: Dosa
+	Calories: 500
+
+	Meal Summary:-
+	Daily Total: Pizza, Burger, Dosa
+	Calories: 6500
+	
+Q.	
+	WAP to do the casting from one type to another (using operator overload)
+	ex:
+	1. class Rupee
+	2. Class Doller
+	3. user takes doller as input
+	4. when obj of Rupee is assigned to obj of doller, conversion should happen
+	5. when Robj.print() -> need to display the converted value
+    
+driver code:
+		Doller d(10);
+		Rupee r;
+		r = d;
+		d.print();
+		r.print();
+		
+o/p
+	10
+	820 -> if conversionrate is 1 doller=82rs 
+	
+	
+
+Q .
+
+Write a program that uses class templates to search for a particular number in an array. 
+It should display the number and the position at which the number is found. (The array size can be of your choice)

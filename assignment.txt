@@ -1,0 +1,23 @@
+1. implement a string class to do following operations without using string(keyword) storage
+class
+a. get the value assigned to a string class using dynamic mem allocation.
+b. implement copy const. to copy content from one obj to another
+c. change the second string which is recently updated from step b to some other string(with increased/decreased size of string)
+
+Ex:
+	req.
+	
+	StClass str1("Hello World");
+	StClass str2 = str1;
+	str1.disp();
+	str2.disp();
+	str2.change("Welcome to CPP Programming Class");
+	str1.disp();
+	str2.disp();
+	
+	
+	o/p
+	Hello World
+	Hello World
+	Hello World
+	Welcome to CPP Programming Class
